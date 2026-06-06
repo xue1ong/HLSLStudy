@@ -1,0 +1,14 @@
+float a = A;
+float b = B;
+float IsMax = C;
+float u;
+if(IsMax == 0)
+{
+    u = min(a,b);
+}
+else
+{
+    u = max(a,b);
+}
+
+return u;

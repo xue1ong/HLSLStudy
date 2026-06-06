@@ -8,7 +8,17 @@ public class HLSLStudy : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput" });
+		PublicDependencyModuleNames.AddRange(new string[] 
+		{ 
+			"Core", 
+			"CoreUObject",
+			"Engine",
+			"InputCore", 
+			"EnhancedInput",
+			"RenderCore",
+			"RHI",
+			  
+		});
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 

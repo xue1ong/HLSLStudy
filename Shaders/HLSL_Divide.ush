@@ -1,0 +1,10 @@
+float a = A;
+float b = B;
+
+if(b == 0)
+{
+    return 0;
+}
+
+float c = a / b;
+return c;
