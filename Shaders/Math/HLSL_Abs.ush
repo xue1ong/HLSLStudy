@@ -1,0 +1,5 @@
+float a = A;
+
+float b = abs(a);
+
+return b;
