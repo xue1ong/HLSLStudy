@@ -1,0 +1,14 @@
+float a = A;
+float b = B;
+
+float c;
+if(b == 0)
+{
+    c = 0;
+}
+else
+{
+    c = fmod(a,b);
+}
+
+return c;
